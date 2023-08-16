@@ -1,0 +1,71 @@
+.comuny-traders {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 79px 0 85px;
+    z-index: 2;
+    background: transparent linear-gradient(360deg, #181F29 0%, #181F29 100%) 0% 0% no-repeat padding-box;
+
+    .comuny-traders-title {
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff;
+        margin-bottom: 78px;
+    }
+
+    .comuny-traders-content,
+    .comuny-traders-content-account {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 49%;
+    }
+
+    .comuny-traders-content {
+        border-right: 1px solid gainsboro;
+    }
+
+    .comuny-traders-input-demo,
+    .comuny-traders-input-contact {
+        height: 55px;
+        width: 33%;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .comuny-traders-content-span {
+        margin-bottom: 26px;
+        color: #fff;
+        font-size: clamp(18px, 1.5vw, 24px); ;
+    }
+
+    .comuny-traders-input-contact {
+        background: none;
+        border: .5px solid #fff;
+    }
+
+    .comuny-traders-input-demo {
+        background: #FF0000;
+        border: .5px solid #FF0000;
+    }
+
+    .comuny-traders-input-contact:hover {
+        background: #FFFFFF34;
+    }
+
+    .comuny-traders-input-demo:hover {
+        background: none;
+        border: .5px solid #FFFFFF
+    }
+}
+
+/*
+* Mobile
+*/
+@media (max-width: 1023px) {
+    .comuny-traders {
+        width: 64em;
+    }
+}

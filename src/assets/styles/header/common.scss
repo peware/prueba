@@ -1,0 +1,99 @@
+.header-index {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 3;
+
+    .header-index-logo{
+        margin-bottom: 20px;
+    }
+
+    .header-index-index {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        padding: 24px 40px 0;
+        background: #181F29;
+
+        .header-index-index-container {
+            margin: 0 auto 20px 90px;
+        }
+
+        .header-index-index-container-login {
+            margin: 0 auto 20px 65px;
+        }
+    }
+
+    .header-menu{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .header-menu, 
+    .header-login {
+        display: flex;
+        gap: 43px;
+    }
+
+    .header-login-span {
+        padding: 0 25px;
+        border-right:1px solid #FFFFFF ;
+    }
+
+    .menu-option, 
+    .login-option,
+    .login-option-log-in,
+    .login-option-lenguage {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .login-option-log-in::after,
+    .login-option-lenguage::after {
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;
+        background-image: url("../../../assets/image/icons/down-arrow.png"); 
+        background-size: cover;
+        order: 2;
+    }
+
+    .login-option-lenguage::before {
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;
+        background-image: url("../../../assets/image/icons/world.png"); 
+        background-size: cover;
+        order: 1;
+    }
+
+}
+
+.header-top-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 0 80px;
+    height: 162px;
+    width: 100%;
+    padding: 0 50px;
+    z-index: 2;
+    background: transparent linear-gradient(180deg, #181F29 0%, #181F29 18%, #181F2960 59%, #181F2900 100%) 0% 0% no-repeat padding-box;
+
+    .top-menu-options {
+        color: white;
+        text-decoration: none;
+    }
+
+    .top-menu-option {
+        margin-top: 42px;
+    }
+}

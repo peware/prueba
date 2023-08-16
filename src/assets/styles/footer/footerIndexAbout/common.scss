@@ -1,0 +1,16 @@
+.footer-index-about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60PX;
+
+    .footer-index-about-container {
+        width: 45%;
+        text-align: left;
+        color: #C1C3C9;
+    }
+
+    .footer-index-about-span {
+        color: #fff;
+        text-decoration: underline;
+    }
+}

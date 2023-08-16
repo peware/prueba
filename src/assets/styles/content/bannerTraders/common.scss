@@ -1,0 +1,94 @@
+.content-banner,
+.banner-buttons {
+    display: flex;
+    background: #181F29;
+
+    .commun-trader{
+        margin-top: 14em;
+    }
+
+    .content-banner-p,
+    .content-banner-span {
+        color: #FFFFFF;
+        font-size:  clamp(16px, 2.5vw, 32px);
+    }
+
+    .banner {
+        width: 45%;
+    }
+
+    .banner-info {
+        width: 55%;
+    }
+
+    .banner-buttons-contact,
+    .banner-buttons-demo {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+    }
+
+    .button-span {
+        color: #FFFFFF;
+    }
+
+    .banner-button-contact-input,
+    .banner-button-demo-input {
+        height: 55px;
+        width: 70%;
+        margin-top: 26px;
+        border: none;
+        color: #FFFFFF;
+        font-size: clamp(20px, 1.5vw, 27px);
+    }
+
+    .banner-button-contact-input {
+        background: none;
+    }
+
+    .banner-button-demo-input {
+        background: #FF0000;
+    }
+
+    .banner-buttons-contact {
+        border-right: 1px solid gainsboro;
+    }
+
+    .content-banner-p {
+        margin: 82px 122px 91px;
+        border-top: 1px solid gainsboro;
+        padding-top: 16.5px;
+    }
+
+    .banner-button-contact-input:hover {
+        background: #FFFFFF34;
+        border: .5px solid #FFFFFF;
+    }
+
+    .banner-button-demo-input:hover {
+        background: none;
+        border: .5px solid #FFFFFF;
+    }
+    
+}
+
+.banner-buttons {
+    margin-bottom: 2rem;
+}
+
+.content-banner {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-top: 85px;
+}
+
+/*
+* Mobile
+*/
+@media (max-width: 1023px) {
+    .content-banner {
+        width: 63.95em;
+    }
+}

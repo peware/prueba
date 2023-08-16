@@ -1,0 +1,41 @@
+.banner-leading-content {
+    position: relative;
+    display: flex;
+    z-index: 2;
+    padding: 85px 30px;
+    background: #F2F2F2;
+}
+
+.banner-leading-text {
+    margin: auto;
+    text-align: left;
+    width: 556px;
+}
+
+.banner-leading-image {
+    margin: auto;
+}
+
+.banner-leading-title {
+    color: #363636;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.banner-leading-p {
+    font-size: 25px;
+}
+
+.banner-leading-link {
+    font-size: 18PX;
+    text-decoration: underline;
+}
+
+/*
+* Mobile
+*/
+@media (max-width: 1023px) {
+    .banner-leading-content {
+        width: 60.2em;
+    }
+}

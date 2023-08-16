@@ -1,0 +1,101 @@
+.footer-index {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 107px 120px;
+    z-index: 2;
+    background: #3C3E48;
+
+    .footer-index-index-icon {
+        width: 40%;
+    }
+
+    .footer-icon {
+        display: block;
+    }
+
+    .footer-index-text {
+        text-align: left;
+        color: #fff;
+    }
+    
+    .footer-index-text {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        font-size: 16px;
+    }
+    
+    .footer-index-span {
+        display: flex;
+        flex-direction: row;
+        white-space: nowrap;
+        font-weight: bold;
+    }
+    
+    .footer-index-p {
+        margin: 0;
+    }
+
+    .footer-index-form {
+        width: var(--footer-index-form__width, 50%);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 40px;
+        border: 2px solid #4D4E57;
+
+        .footer-surfup {
+            border-right: .5px solid #fff;
+        }
+
+        .footer-form-index-title {
+            width: 50%;
+            text-align: left;
+        }
+
+        .footer-form-index-title,
+        .footer-form-subscribe-submit {
+            color: #fff;
+        }
+
+        .footer-form-subscribe-text {
+            height: 2rem;
+            width: 22rem;
+            background: none;
+            color: #4D4E57;
+        }
+
+        .footer-form-subscribe-submit {
+            height: 2.5rem;
+            width: 9rem;
+            background: #FFFFFF34;
+        }
+
+        .footer-form-subscribe-text,
+        .footer-form-subscribe-submit {
+            border: 2px solid #4D4E57;
+        }
+
+        .footer-form-subscribe {
+            margin-left: 1.5rem;
+        }
+
+        .footer-surfup,
+        .footer-form-index-title,
+        .footer-form-subscribe {
+            margin-right: auto;
+        }
+    }
+}
+
+/*
+* Mobile
+*/
+@media (max-width: 1023px) {
+    .footer-index {
+        width: 49em;
+
+        --footer-index-form__width: 49%;
+    }
+}

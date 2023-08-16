@@ -1,0 +1,22 @@
+.footer-index-notice {
+    padding: 30px 0;
+    border-top: 1px solid #999BA3;
+    text-align: left;
+    font-size: 18px;
+    color: #C1C3C9;
+
+    .footer-index-notice-span {
+        font-weight: bold;
+    }
+
+    .footer-index-notice-links {
+        display: flex;
+        gap: 20px;
+        color: #fff;
+        
+        .footer-index-notice-links-span:not(:last-of-type) {
+            border-right: 1px solid #fff;
+            padding: 0 20px 0 0;
+        }
+    }
+}
